@@ -4,10 +4,7 @@ has_bike = False
 has_car = True
 has_ride_share_app = False
 
-if distance_mi:
-    print('True')
-else:
-    print('False')
+print(bool(25))
 
 if distance_mi >= 1 and is_raining:
     print('True')
